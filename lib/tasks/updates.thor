@@ -191,7 +191,7 @@ class UpdatesCLI < Thor
         log_upload_success(created_issue)
       else
         logger.info('The previous issue has already been closed')
-        log_upload_success(created_issue)
+        log_upload_success(created_issue)3
       end
     end
   end
